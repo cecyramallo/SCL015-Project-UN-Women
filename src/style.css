@@ -1,0 +1,675 @@
+Body{
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+#front-end{
+    width: 80%;
+    margin-left: 10%;
+}
+/*Pagina Bienvenida*/
+.welcome{
+    position: relative;
+    display: inline-block;
+}
+.fondo-welcome{ 
+    width: 100%;
+    position: fixed;
+    opacity: 0.6;
+    /* filter: brightness(130%); */
+} 
+#text-welcome{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+}
+.english{
+    position: absolute;
+    top: 80%;
+    left: 10%;    
+}
+#english{
+    color: #1f3361;
+    font-size: 16px;
+    font-weight: bold;
+}
+.spanish{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+#spanish{
+    color: #1f3361;
+    font-size: 16px;
+    font-weight: bold;
+}
+.french{
+    position: absolute;
+    top: 80%;
+    right: 40%;
+}
+#french{
+    color: #1f3361;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logo-bienvenida{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 15%;
+    width: 250px;
+}
+#enter-button{
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 110%;
+    background-color: #de7c88;
+    color: white;
+    width: 143px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+#enter.button:focus:not(:focus-visible){
+    outline: 0;
+}
+/*Logos para las siguientes páginas*/
+.logos{
+    margin: 25px auto;
+    width: 100%;
+    /*display: flex;
+    align-items: center;*/
+    justify-content: space-evenly;    
+}
+#oportunidad-logo{
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 3%;
+   
+}
+#onu-logo{ 
+    width: 25%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+}
+
+/*Página de inicio sesión*/
+#inicio-sesion{
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+::placeholder { 
+    color: #7b8794;
+    margin-left: 5%;
+    text-align: left;
+    border: 0;
+  
+    /*opacity: 2;*/
+}
+#e-mail{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-top: 10%;
+    margin-left: 4%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#e-mail.button:focus:not(:focus-visible){
+    outline: 0;
+}
+#password{
+    border-radius: 48px;;
+    align-content: flex-start;
+    margin-top: 5%;
+    margin-left: 4%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#password.button:focus:not(:focus-visible){
+    outline: 0;
+}
+.text-reset-password{
+    font-size: 12px;
+    color: #1f3361;
+    margin-left: 40%;
+    font-weight: lighter;
+} 
+#text-reset-password{
+    color: #1f3361;
+    font-weight: bold;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+#login-button{
+    margin-left: 30%;
+    margin-top: 15%;
+    background-color: #de7c88;
+    color: white;
+    width: 143px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+#not-account{
+    color:#1f3361;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 12px;
+}
+
+/*Página de registro*/
+#Registry{
+    color:  #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+/* ::placeholder { 
+    color: #7b8794;
+    margin-left: 5%;
+    text-align: left;
+    border: 1px;
+} */
+
+.placeholder{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-top: 10%;
+    margin-left: 4%;
+    height: 30px;
+    width: 312px;
+    font-weight: lighter;
+    background: white;
+}
+.input-placeholder{
+
+    border-radius: 48%;
+    margin-top: 5%;
+}
+#name-surname{
+    align-content: space-between;
+}
+#text-name{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-top: 0%;
+    margin-left: 5%;
+    height: 32px;
+    width: 45%;
+    font-weight: lighter;
+    background: white;
+}
+#text-name.button:focus:not(:focus-visible){
+    outline: 0;
+}
+#text-surname{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-top: 0%;
+    height: 32px;
+    width: 45%;
+    font-weight: lighter;
+    background: white;
+}
+#text-surname.button:focus:not(:focus-visible){
+    outline: 0;
+}
+select, option{
+    color:  #1f3361;
+}
+#region{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 35px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#region.button:focus:not(:focus-visible){
+    outline: 0;
+}
+#city{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 35px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#city:focus:not(:focus-visible){
+    outline: 0;
+}
+#text-mail{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 5%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+    text-align: center;
+}
+#text-mail:focus:not(:focus-visible){
+    outline: 0;
+}
+#text-password{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 5%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#text-password:focus:not(:focus-visible){
+    outline: 0;
+}
+#text-repeat-password{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 5%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#text-city{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 1%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+    border: 0;
+}
+#conditions{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#signup-button{
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: #de7c88;
+    color: white;
+    width: 143px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+#signup-buttonn:focus:not(:focus-visible){
+    outline: 0;
+}
+
+/*Página Recupera tu contraseña*/
+
+#reset-password{
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 22%;
+ 
+}
+
+#text-reset{
+    color: #4f4f4f;
+    font-size: 18px;
+    margin-left: 5%;
+    text-align: left;
+    font-weight:normal;
+    margin-left: 4%;
+}
+#choose{
+    color: #4f4f4f;
+    font-size: 18px;
+    margin-left: 5%;
+    text-align: left;
+}
+#sms-reset{
+    border-radius: 48px;
+    margin-left: 5%;
+    height: 28px;
+    width: 300px;
+    font-weight: lighter;
+    background: white;
+    /* background-image: url(./assets/icono-sms.png);
+    background-repeat: no-repeat; */
+    text-align: center;
+}
+#mail-reset{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 28px;
+    width: 300px;
+    font-weight: lighter;
+    background: white;
+}
+.placeholder-reset{
+    border-radius: 48px;
+    border: blue;
+}
+
+#password-button{
+    margin-left: 28%;
+    margin-top: 10%;
+    background-color: #de7c88;
+    color: white;
+    width: 143px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 18px;
+  
+}
+
+/*Página Comunidad*/
+.community-arrow{
+    margin: 3%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+#text-community{
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 7%;
+    position: relative;
+    display: inline-block;
+
+}
+#text-zone{
+    color: #4f4f4f;
+    font-size: 18px;
+    margin-left: 5%;
+    text-align: left;
+    
+}
+.Zones{
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.see-all{
+    color: #4f4f4f;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    margin-left: 70%;
+}
+.user{
+    width: 40px;
+    margin-left: 5%;
+}
+p{
+    margin-bottom: 3%;
+}
+/*Página Canales*/
+
+/*Página creación de canales*/
+#plus-pink{
+    width: 30px;
+    margin-left: 85%;
+    margin-bottom: 3%;
+}
+.search-channel{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 5%;
+    height: 32px;
+    width: 90%;
+    font-weight: lighter;
+    background: white;
+}
+#text-channel{
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-bottom: 0;
+}
+#btn-send-form{
+    background-color: #de7c88;
+    color: white;
+    width: 138px;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-left: 4px;
+}
+#text-create{
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 5%;
+    position: relative;
+    display: inline-block
+
+}
+#crea-channel-arrow {
+    margin: 3%;
+    display: flex;
+    align-items: center;
+}
+
+
+#create-title{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #1f3361;
+}
+#channel-arrow{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 3%;
+}
+#user-img{
+    margin-left: 25%;
+    height: 60px;
+}
+
+
+/*inputs canales*/
+.card {
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .90rem;
+}
+#channel-title{
+    border-radius: 48px;
+    align-content: flex-start;
+    margin-left: 1%;
+    height: 32px;
+    width: 98%;
+    font-weight: lighter;
+    background: white;
+
+}
+#channel-description{
+    border-radius: 16px;
+    align-content: flex-start;
+    margin-left: 1%;
+    height: 92px;
+    width: 98%;
+    font-weight: lighter;
+    background: white;
+}
+/*página que muestra los canales*/
+
+#channel-print{
+    background-color:#dde2e5;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,.125);
+}
+.new-channel-tittle{
+   color: #1f3361;
+   font-size: 18px;
+   font-weight: bold;
+   margin-left: 3%;
+}
+.new-channel-description{
+    color: #4f4f4f;
+    margin-left: 3%;
+
+}
+.undraw_img{
+    width: 100px;
+    height: 100px;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 10%;
+}
+.new-channel-cont{
+    align-content: center;
+    background-color: #dde2e5;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,.125);
+}
+
+#user-img{
+    margin-left: 25%;
+    height: 60px;
+}
+
+/* Nav Bar superior */
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.profileimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
+}
+.profileimg img{
+    width:100%;
+    height: 100%;
+}
+.navigation-bar .dropdown-toggle::after {
+    display: none;
+}
+.navigation-bar .navbar-brand img {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 90%;
+    margin-left: 3%;
+
+}
+.bg-lightgray {
+    background-color: #fafafa;
+}
+.navbar-brand {
+    width: 60%;
+}
+
+.mini{
+    left: -130px;
+}
+
+  /* Página de editar perfil*/
+
+.arrow-img-profile{
+    margin: 3%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+#arrow-profile{
+    width: 16px;
+    margin-top: 3%;
+}
+#edit-profile{
+    font-size: 18px;
+    color: #1f3361;
+    font-weight: bold;
+    margin-top: 5%;
+
+}
+#img-profile{
+    width: 100px;
+    margin-left: 38%;
+}
+.ph-edit-profile{
+    margin-left: 5%;
+    border-radius: 48px;
+    width: 88%;
+    height: 35px;
+    margin-top: 5%;
+}
+.select-edit-profile{
+    margin-left: 5%;
+    border-radius: 48px;
+    width: 88%;
+    height: 34px;
+    margin-top: 5%;
+}
+#save-changes{
+    background-color: #de7c88;
+    color: white;
+    border-radius: 48px;
+    margin-top: 10%;
+    margin-left: 22%;
+    height: 42px;
+    width: 200px;
+    box-shadow: rgba(0,0,0,.125);
+}
+
+  
+
+  .mini{
+    left: -130px;
+  }
+   #navbar-style{
+  /* justify-content: space-around; */
+  bottom: 0%;
+  display: flex;
+}
+/* .nav-buttons{
+    font-size: 18px;
+
+}  */
+/* ul{
+    top: 50%;
+    left:50%;
+    display: flex;
+
+}
+
+ul li{
+    list-style: none;
+} */
