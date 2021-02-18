@@ -8,7 +8,7 @@ export const community = () => {
 				</a>
 				
 				</div>
-				<p id="text-zone">¡Select a zone and communicate with more women like you!</p>
+				<p id="text-zone">Select a zone and communicate with more women like you!</p>
 				<p><a href="#/north" class="Zones">North Zone</a></p>
 				<div>
 						<div>
