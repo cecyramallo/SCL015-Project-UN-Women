@@ -14,7 +14,7 @@ export const language = () => {
     divLanguage.innerHTML = viewLanguage;
     const loginForm = divLanguage.querySelector('#language-button');
     loginForm.addEventListener('click', () => {
-      window.location.href = '#/channels';
+      window.location.href = 'https://cecyramallo.github.io/SCL015-Projet-Onu-Femmes/src/#/channels';
     })
     return divLanguage;
 };
