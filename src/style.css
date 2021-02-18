@@ -598,7 +598,7 @@ p{
 }
 
 .mini{
-    left: -130px;
+    left: -140px;
 }
 
   /* Página de editar perfil*/
@@ -707,4 +707,8 @@ ul li a {
 
 ul li a:focus{
     color: #de7c88;
+}
+
+.dropdown-item{
+    font-size: 16px;
 }
