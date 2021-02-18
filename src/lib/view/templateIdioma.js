@@ -3,12 +3,12 @@
 export const language = () => {
     const divLanguage = document.createElement("div");
     const viewLanguage = `
-        <p>Language settings</p>
-        <p>Choose your preferred language.</p>
-        <p>You can change your language again later.</p>
-        <p><input type="radio">Kreyol</p>
-        <p><input type="radio">Español</p>
-        <p><input type="radio">English</p>
+        <p id="language-settings">Language settings</p>
+        <p id="choose-language">Choose your preferred language.</p>
+        <p id="choose-language-again">You can change it again later.</p>
+        <p class="input-language"><input type="radio">Français</p>
+        <p class="input-language"><input type="radio">Español</p>
+        <p class="input-language"><input type="radio">English</p>
         <button id="language-button">Confirm</button>
     `;
     divLanguage.innerHTML = viewLanguage;
