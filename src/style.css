@@ -648,13 +648,10 @@ p{
     width: 200px;
     box-shadow: rgba(0,0,0,.125);
 }
-
-  
-
-  .mini{
+.mini{
     left: -130px;
   }
-   #navbar-style{
+#navbar-style{
   /* justify-content: space-around; */
   bottom: 0%;
   display: flex;
@@ -673,3 +670,41 @@ p{
 ul li{
     list-style: none;
 } */
+
+.mini{
+    left: -130px;
+  }
+   #navbar-style{
+    bottom: 0%;
+    position: fixed;
+    height: 50px;
+    background-color: #fafafa;
+
+}
+
+ ul{
+    top: 50%;
+    left:50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+ul li{
+    list-style: none;
+} 
+
+ul li a {
+    position: relative;
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #1f3361;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul li a:focus{
+    color: #de7c88;
+}
